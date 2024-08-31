@@ -11,6 +11,7 @@ runs/*
 !runs/.gitkeep
 fromage/llama/*
 !fromage/llama/.gitkeep
+vqa/*
 
 *ipynb_checkpoints
 *.pyc
