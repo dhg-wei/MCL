@@ -1,0 +1,16 @@
+# ignore
+data/*
+!data/.gitkeep
+datasets/*
+!datasets/.gitkeep
+features/*
+!features/.gitkeep
+repos/*
+!repos/.gitkeep
+runs/*
+!runs/.gitkeep
+fromage/llama/*
+!fromage/llama/.gitkeep
+
+*ipynb_checkpoints
+*.pyc
