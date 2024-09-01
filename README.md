@@ -1,19 +1,22 @@
-(ICML 2024) Improve Context Understanding in Multimodal Large Language Models via Multimodal Composition Learning
+# (ICML 2024) Improve Context Understanding in Multimodal Large Language Models via Multimodal Composition Learning
 
 # Under Construction
 
-# Llama2
+## Llama2
 ```
 Downloading llama2-7B from https://huggingface.co/meta-llama/Llama-2-7b
 ```
 
-# Training
+## Training
+```
+Prepare data ...
+```
 ```
 # train with 4 gpus
 ./train.sh
 ```
 
-# Evaluation
+## Evaluation
 ```
 cd repos
 git clone https://github.com/miccunifi/CIRCO.git
