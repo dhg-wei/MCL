@@ -46,10 +46,11 @@ This repo is built upon [FROMAGe](https://github.com/kohjingyu/fromage).
 
 ## Citations
 ```
-@inproceedings{liimproving,
+@inproceedings{li2024improving,
   title={Improving Context Understanding in Multimodal Large Language Models via Multimodal Composition Learning},
   author={Li, Wei and Fan, Hehe and Wong, Yongkang and Yang, Yi and Kankanhalli, Mohan},
-  booktitle={Forty-first International Conference on Machine Learning}
+  journal={ICML},
+  year={2024},
 }
 ```
 
