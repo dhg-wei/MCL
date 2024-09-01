@@ -335,7 +335,7 @@ def main_worker(gpu, ngpus_per_node, args):
   with open(os.path.join(args.log_dir, 'model_args.json'), 'w') as f:
     json.dump(vars(model_args), f, indent=4)
 
-  model = models.Fromage(tokenizer, model_args)
+  model = models.MCL(tokenizer, model_args)
   if args.precision == 'fp16':
     model = model.half()
   elif args.precision == 'bf16':
