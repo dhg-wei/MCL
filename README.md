@@ -27,4 +27,14 @@ wget https://drive.google.com/file/d/1oYfffZ6ckVjSbxG9rk0h5OACYfEWIWxv/view?usp=
 tar -xf icml_run.tar
 ```
 
+```
+# download data
+cd data
+download MSCOCO unlabel images from https://cocodataset.org/#download
+download NLVR2 from https://huggingface.co/datasets/TIGER-Lab/NLVR2
+```
+```
+# CIR inference
+cir_inference.ipynb
+```
 
