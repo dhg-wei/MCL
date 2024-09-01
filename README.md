@@ -1,4 +1,4 @@
-# (ICML 2024) Improve Context Understanding in Multimodal Large Language Models via Multimodal Composition Learning
+## (ICML 2024)  Improve Context Understanding in Multimodal Large Language Models via Multimodal Composition Learning
 
 # Under Construction
 
@@ -40,4 +40,17 @@ download NLVR2 from https://huggingface.co/datasets/TIGER-Lab/NLVR2
 # CIR inference
 cir_inference.ipynb
 ```
+
+## Acknowledgements
+This repo is built upon [FROMAGe](https://github.com/kohjingyu/fromage).
+
+## Citations
+```
+@inproceedings{liimproving,
+  title={Improving Context Understanding in Multimodal Large Language Models via Multimodal Composition Learning},
+  author={Li, Wei and Fan, Hehe and Wong, Yongkang and Yang, Yi and Kankanhalli, Mohan},
+  booktitle={Forty-first International Conference on Machine Learning}
+}
+```
+
 
