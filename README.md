@@ -7,6 +7,13 @@
 Downloading llama2-7B from https://huggingface.co/meta-llama/Llama-2-7b
 ```
 
+## Features
+```
+# download features
+wget https://drive.google.com/file/d/1_3UtErJzCcqpJ3Ie0l7uSvKUuj8H201t/view?usp=sharing
+tar -xf features.tar
+```
+
 ## Training
 ```
 Prepare data ...
@@ -36,6 +43,7 @@ cd data
 download MSCOCO unlabel images from https://cocodataset.org/#download
 download NLVR2 from https://huggingface.co/datasets/TIGER-Lab/NLVR2
 ```
+
 ```
 # CIR inference
 cir_inference.ipynb
