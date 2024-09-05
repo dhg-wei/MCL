@@ -9,8 +9,7 @@ Downloading llama2-7B from https://huggingface.co/meta-llama/Llama-2-7b
 
 ## Features
 ```
-# download features
-wget https://drive.google.com/file/d/1_3UtErJzCcqpJ3Ie0l7uSvKUuj8H201t/view?usp=sharing
+# download features from https://drive.google.com/file/d/1_3UtErJzCcqpJ3Ie0l7uSvKUuj8H201t/view?usp=sharing
 tar -xf features.tar
 ```
 
