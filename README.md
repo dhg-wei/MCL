@@ -16,7 +16,8 @@ tar -xf features.tar
 
 ## Training
 ```
-Prepare data ...
+cd dataset
+download MMC dataset from https://drive.google.com/file/d/1S_9ktojv3DPr7V26BtR1uoQkMXvGUBw3/view?usp=sharing
 ```
 ```
 # train with 4 gpus
@@ -33,7 +34,7 @@ git clone git clone -b cirr_dataset git@github.com:Cuberick-Orion/CIRR.git cirr
 ```
 # download pretrained models
 cd runs
-wget https://drive.google.com/file/d/1oYfffZ6ckVjSbxG9rk0h5OACYfEWIWxv/view?usp=sharing
+download checkpoint from https://drive.google.com/file/d/1oYfffZ6ckVjSbxG9rk0h5OACYfEWIWxv/view?usp=sharing
 tar -xf icml_run.tar
 ```
 
