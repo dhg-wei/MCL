@@ -1,7 +1,5 @@
 ## (ICML 2024)  Improve Context Understanding in Multimodal Large Language Models via Multimodal Composition Learning
 
-# Under Construction
-
 ## Llama2
 ```
 Downloading llama2-7B from https://huggingface.co/meta-llama/Llama-2-7b
@@ -17,7 +15,10 @@ tar -xf features.tar
 ```
 cd dataset
 download MMC dataset from https://drive.google.com/file/d/1S_9ktojv3DPr7V26BtR1uoQkMXvGUBw3/view?usp=sharing
+
+Please email me if you require the CC3M dataset.
 ```
+
 ```
 # train with 4 gpus
 ./train.sh
